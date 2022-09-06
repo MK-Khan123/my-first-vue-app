@@ -13,7 +13,7 @@ const router = createRouter({
     routes: [
         { name: 'home', path: '/home', component: Home, },
         { name: 'teams', path: '/teams', component: TeamsList, },
-        { name: 'users', path: '/users', component: MembersList },
+        { name: 'members', path: '/members', component: MembersList },
     ],
     linkActiveClass: 'active',
 });

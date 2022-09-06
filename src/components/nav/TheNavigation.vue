@@ -9,7 +9,7 @@
                     <router-link to="/teams">Teams</router-link>
                 </li>
                 <li class="mx-8">
-                    <router-link to="/users">Users</router-link>
+                    <router-link to="/members">Members</router-link>
                 </li>
             </ul>
         </nav>

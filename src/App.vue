@@ -1,5 +1,8 @@
 <template>
   <the-navigation></the-navigation>
+  <main>
+    <router-view></router-view>
+  </main>
 </template>
 
 <script>
@@ -16,7 +19,7 @@ export default {
         { id: 't2', name: 'Design Team', members: ['u3', 'u4'] },
         { id: 't3', name: 'Business Development', members: ['u5', 'u6'] },
       ],
-      users: [
+      members: [
         { id: 'u1', fullName: 'Alex Jones', role: 'Engineer' },
         { id: 'u2', fullName: 'Thomas Holland', role: 'Engineer' },
         { id: 'u3', fullName: 'James Engelsman', role: 'Designer' },
@@ -26,6 +29,12 @@ export default {
       ],
     };
   },
+  provide() {
+    return {
+      teams: this.teams,
+      members: this.members
+    }
+  }
 };
 
 </script>
