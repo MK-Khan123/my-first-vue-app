@@ -11,6 +11,9 @@
                 <li class="mx-8">
                     <router-link to="/members">Members</router-link>
                 </li>
+                <li class="mx-8">
+                    <router-link to="/add_members">Add Members</router-link>
+                </li>
             </ul>
         </nav>
     </header>
@@ -25,6 +28,7 @@ a {
     border: 1px solid black;
     padding: 0.5rem 1.5rem;
     display: inline-block;
+    border-radius: 0.5rem;
 }
 
 a:hover,

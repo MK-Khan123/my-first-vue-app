@@ -7,6 +7,7 @@ import Home from "./components/Home.vue";
 import TeamsList from "./components/teams/TeamsList.vue";
 import MembersList from "./components/members/MembersList.vue";
 import TeamMembers from "./components/teams/TeamMembers.vue";
+import AddMembers from "./components/teams/AddMembers.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -25,6 +26,7 @@ const router = createRouter({
       ],
     },
     { name: "home", path: "/home", component: Home },
+    { name: "add-members", path: "/add_members", component: AddMembers },
     { name: "members", path: "/members", component: MembersList },
   ],
   linkActiveClass: "active",
