@@ -3,7 +3,7 @@
         <nav class="h-full">
             <ul class="m-0 p-0 h-full list-none flex justify-center items-center">
                 <li class="mx-8">
-                    <router-link to="/teams">Home</router-link>
+                    <router-link to="/home">Home</router-link>
                 </li>
                 <li class="mx-8">
                     <router-link to="/teams">Teams</router-link>
