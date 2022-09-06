@@ -20,7 +20,6 @@
 a {
     text-decoration: none;
     background: transparent;
-    border: 1px solid transparent;
     cursor: pointer;
     color: black;
     border: 1px solid black;

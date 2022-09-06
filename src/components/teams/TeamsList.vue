@@ -1,6 +1,6 @@
 <template>
     <router-view></router-view>
-    <ul class="list-none my-8 p-0 max-w-2xl">
+    <ul class="list-none my-8 p-0 mx-auto max-w-2xl">
         <team-item v-for="team in teams" :key="team.id" :id="team.id" :name="team.name"
             :member-count="team.members.length"></team-item>
     </ul>
