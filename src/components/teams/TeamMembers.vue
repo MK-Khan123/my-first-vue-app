@@ -1,6 +1,6 @@
 <template>
-    <section>
-        <h2 class="my-2">{{ teamName }}</h2>
+    <section class="bg-stone-600">
+        <h2 class="my-2 font-bold text-white">{{ teamName }}</h2>
         <ul class="list-none m-0 p-0">            
             <member-item v-for="member in teamMembers" :key="member.id" :name="member.fullName" :role="member.role">
             </member-item>
