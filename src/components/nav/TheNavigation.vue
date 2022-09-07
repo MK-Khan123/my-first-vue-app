@@ -1,5 +1,5 @@
 <template>
-    <header class="w-full h-20 bg-stone-300">
+    <header class="w-full h-20 bg-stone-400">
         <nav class="h-full">
             <ul class="m-0 p-0 h-full list-none flex justify-center items-center">
                 <li class="mx-8">

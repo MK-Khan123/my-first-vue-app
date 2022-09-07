@@ -1,5 +1,5 @@
 <template>
-    <li class="my-4 mx-0 border border-slate-300 p-4">
+    <li class="my-4 mx-0 border border-slate-300 p-4 bg-slate-200 rounded-lg">
         <h3 class="my-2">{{ name }}</h3>
         <div class="role" :class="roleClass">{{ role }}</div>
     </li>

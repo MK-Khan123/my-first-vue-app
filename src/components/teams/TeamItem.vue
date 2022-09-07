@@ -1,5 +1,5 @@
 <template>
-    <li class="my-4 p-4 rounded-xl mx-auto">
+    <li class="my-4 p-4 rounded-xl mx-auto bg-slate-200">
         <h3 class="my-2 text-xl">{{ name }}</h3>
         <div class="my-2">{{ memberCount }} Members</div>
         <router-link class="no-underline py-2 px-6 text-white inline-block bg-indigo-600 rounded-md"

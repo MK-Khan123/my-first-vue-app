@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col justify-center items-center p-36">
-        <form class="shadow p-6 w-2/5 h-1/2" @submit.prevent="submitForm">
+        <form class="shadow p-6 w-2/5 h-1/2 bg-slate-200 rounded-lg" @submit.prevent="submitForm">
             <h2 class="text-center font-bold text-4xl py-4">Add Members</h2>
             <div class="form-control">
                 <label class="mr-4" for="user-name">Your Name</label>
