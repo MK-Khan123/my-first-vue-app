@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import MemberItem from './MemberItem.vue';
+import MemberItem from '../components/members/MemberItem.vue';
 
 export default {
     components: {
